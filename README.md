@@ -42,7 +42,13 @@ npm start
     "category": "Work",
     "priority": "High"
   }
-   
+
+### PUT /tasks/:id
+- Description: Edit a specific task by ID.
+
+### DELETE /tasks/:id
+- Description: Delete a task by ID.
+  
 So, if you're interested, check it out! 🙂
   
 
