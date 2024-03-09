@@ -9,6 +9,9 @@
    </tr>
    </table>
 
+## Banco de dados:
+This project uses a JSON file as a database to store tasks. The file `tasks.json` contains the task data, including task id, task description, the completion status, the category and priority.
+
  ## Installation and Usage:
 
 1. Clone the repository:
@@ -48,6 +51,7 @@ npm start
 
 ### DELETE /tasks/:id
 - Description: Delete a task by ID.
+
   
 So, if you're interested, check it out! 🙂
   
