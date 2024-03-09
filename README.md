@@ -21,39 +21,27 @@ npm start
 
 4. Access the API at http://localhost:8000 in your preferred API testing tool.
    
-5. API Endpoints:
-GET /tasks
-Description: Get all tasks.
-Example: GET http://localhost:8000/tasks
+## API Endpoints:
 
-GET /tasks/:id
-Description: Get a specific task by ID.
-Example: GET http://localhost:8000/tasks/1
+### GET /tasks
+- Description: Get all tasks.
+- Example: `GET http://localhost:8000/tasks`
 
-POST /tasks
-Description: Create a new task.
-Example:
-json
-POST http://localhost:8000/tasks
-Body: {
-  "task": "Do something",
-  "done": false,
-  "category": "Work",
-  "priority": "High"
-}
+### GET /tasks/:id
+- Description: Get a specific task by ID.
+- Example: `GET http://localhost:8000/tasks/1`
 
-PUT /tasks/:id
-Description: Update an existing task by ID.
-Example:
-PUT http://localhost:8000/tasks/1
-Body: {
-  "task": "Updated task",
-  "done": true
-}
-
-DELETE /tasks/:id
-Description: Delete a task by ID.
-Example: DELETE http://localhost:8000/tasks/1
+### POST /tasks
+- Description: Create a new task.
+- Example: 
+  ```json
+  POST http://localhost:8000/tasks
+  Body: {
+    "task": "Do something",
+    "done": false,
+    "category": "Work",
+    "priority": "High"
+  }
    
 So, if you're interested, check it out! 🙂
   
