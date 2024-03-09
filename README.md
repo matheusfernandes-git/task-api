@@ -9,7 +9,7 @@
    </tr>
    </table>
 
-## Banco de dados:
+## Data base:
 This project uses a JSON file as a database to store tasks. The file `tasks.json` contains the task data, including task id, task description, the completion status, the category and priority.
 
  ## Installation and Usage:
